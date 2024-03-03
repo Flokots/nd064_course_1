@@ -1,0 +1,14 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:5001/ (Press CTRL+C to quit)
+INFO:app:Main request successful
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 09:31:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 09:31:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 09:31:43] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+INFO:app:Status request successful
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 09:32:04] "GET /status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 09:32:04] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 09:32:10] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 09:32:14] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Mar/2024 09:32:14] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -
