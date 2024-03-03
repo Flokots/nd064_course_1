@@ -38,9 +38,7 @@ def hello():
 
 
 if __name__ == "__main__":
-    # logging.basicConfig(filename='app.log', format='%(asctime)s %(message)s',
-    #                     datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
-    logging.basicConfig(filename='app.log', level=logging.DEBUG)
+    logging.basicConfig(filename='app.log', format='%(asctime)s %(message)s',
+                        datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
 
     app.run(host='0.0.0.0', port=5001)
-
